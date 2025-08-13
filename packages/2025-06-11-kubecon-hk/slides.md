@@ -4,8 +4,8 @@ highlighter: shiki
 css: unocss
 colorSchema: dark
 transition: fade-out
-title: Taming Dependency Chaos for LLM in K8S
-exportFilename: KubeCon HK 2025.06 - Taming Dependency Chaos for LLM in K8S
+title: Your AI Learning Journey Continues
+exportFilename: AI Learning Journey - Beyond the Course
 lineNumbers: false
 drawings:
   persist: false
@@ -19,16 +19,16 @@ routerMode: hash
 <div translate-x--14>
 
 <h1>
-  Taming Dependency Chaos for LLM in K8S
+  Your AI Learning Journey Continues
 </h1>
 
-DaoCloud Fanshi Zhang, Kebe Liu, Peter Pan
+Essential Next Steps for Professional Growth in Artificial Intelligence
 
 </div>
 
 <div w-full absolute bottom-0 left-0 flex items-center transform="translate-x--10 translate-y--10">
   <div w-full flex items-center justify-end gap-4>
-    <img src="/KubeCon.svg" h-20 translate-y-4>
+    <div i-carbon:ai-status text-6xl text-blue-400 />
   </div>
 </div>
 
@@ -44,78 +44,43 @@ glowSeed: 205
     :class="$clicks < 1 ? 'translate-x--20 opacity-0' : 'translate-x-0 opacity-100'"
   >
     <div flex items-center gap-6>
-      <img src="/DaoCloud.svg" h-40 />
+      <div i-carbon:education text-8xl text-blue-400 />
     </div>
   </div>
   <div
     v-after pl-15 pr-15 transition duration-500 ease-in-out
     :class="$clicks < 1 ? 'scale-80' : 'scale-100'"
   >
-    <div i-carbon:close text-8xl />
+    <div i-carbon:arrow-right text-8xl />
   </div>
   <div
     v-after flex flex-col gap-2 items-center justify-center transition duration-500 ease-in-out
     :class="$clicks < 1 ? 'translate-x-20 opacity-0' : 'translate-x-0 opacity-100'"
   >
     <div flex items-center gap-6>
-      <div i-devicon:kubernetes inline-block text-6xl /> <span text-4xl text="[#5791f7]">Kubernetes</span>
+      <div i-carbon:ai-status inline-block text-6xl /> <span text-4xl text="[#5791f7]">AI Mastery</span>
     </div>
   </div>
 </div>
 
 ---
-layout: intro
-class: px-35
-glowSeed: 205
+layout: center
+class: text-center
 ---
 
-<div flex>
-  <div
-    v-click="1" flex flex-col items-center transition duration-500 ease-in-out
-    :class="$clicks < 1 ? 'translate-y-20 opacity-0' : 'translate-y-0 opacity-100'"
-  >
-    <img src="/person/peter.png" w-50 h-50 rounded-full object-cover mb-5>
-    <span font-semibold text-3xl >Peter Pan</span>
-    <div items-center>
-      <div>
-        <span class="opacity-70">Software Engineering VP</span>
-      </div>
-      <div text-sm flex items-center justify-center gap-2 mt-4>
-        <div i-ri:github-fill /><span underline decoration-dashed font-mono decoration-zinc-300>panpan0000</span>
-      </div>
-    </div>
-  </div>
-  <div flex-1 />
-  <div
-    v-click="2" flex flex-col items-center transition duration-500 ease-in-out
-    :class="$clicks < 2 ? 'translate-y-20 opacity-0' : 'translate-y-0 opacity-100'"
-  >
-    <img src="/person/kebe.jpeg" w-50 h-50 rounded-full object-cover mb-5>
-    <span font-semibold text-3xl>Kebe Liu</span>
-    <div items-center>
-      <div>
-        <span class="opacity-70">Senior software engineer</span>
-      </div>
-      <div text-sm flex items-center justify-center gap-2 mt-4>
-        <div i-ri:github-fill /><span underline decoration-dashed font-mono decoration-zinc-300>kebe7jun</span>
-      </div>
-    </div>
-  </div>
-  <div flex-1 />
-  <div
-    v-click="3" flex flex-col items-center transition duration-500 ease-in-out
-    :class="$clicks < 3 ? 'translate-y-20 opacity-0' : 'translate-y-0 opacity-100'"
-  >
-    <img src="/person/neko.jpeg" w-50 h-50 rounded-full object-cover mb-5>
-    <span font-semibold text-3xl>Fanshi Zhang</span>
-    <div flex-col items-center>
-      <div>
-        <span class="opacity-70">Senior software engineer</span>
-      </div>
-      <div text-sm flex items-center justify-center gap-2 mt-4>
-        <div i-ri:github-fill /><span underline decoration-dashed font-mono decoration-zinc-300>nekomeowww</span>
-      </div>
-    </div>
+# Welcome to Module 6
+
+The Final Module of Our Generative AI Course
+
+<div class="mt-8 text-xl opacity-80">
+  Your learning journey doesn't end here - this is just the beginning
+</div>
+
+<div v-click class="mt-8 bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg px-8 py-6">
+  <div class="text-2xl mb-4">🚀</div>
+  <div class="text-lg font-semibold mb-2">Professional Imperative</div>
+  <div class="text-sm opacity-70">
+    Staying current with AI advances is essential for career longevity and success
   </div>
 </div>
 
@@ -124,9 +89,9 @@ class: py-10
 glowSeed: 100
 ---
 
-# Challenges Across LLM Lifecycle
+# The Reality of AI Evolution
 
-<span>From environment setup to production deployment</span>
+<span>Why continuous learning is not optional</span>
 
 <div mt-6 />
 
@@ -136,28 +101,24 @@ glowSeed: 100
 
 <div border="2 solid white/5" rounded-lg overflow-hidden bg="white/5" backdrop-blur-sm h-full>
   <div flex items-center bg="white/10" backdrop-blur px-3 py-2 rounded-md>
-    <div i-carbon:warning-alt text-amber-300 text-sm mr-2 />
+    <div i-carbon:rocket text-amber-300 text-sm mr-2 />
     <div font-semibold>
-      Dependency Hell
+      Unprecedented Pace
     </div>
   </div>
   <div px-4 py-3>
     <div flex flex-col gap-3>
       <div>
-        <div text-sm font-medium>Dependency install overhead</div>
-        <div text-xs opacity-70>Python/NodeJS install fails frequently with long waiting</div>
+        <div text-sm font-medium>New models emerge daily</div>
+        <div text-xs opacity-70>Innovation rate exceeds traditional tech</div>
       </div>
       <div>
-        <div text-sm font-medium>CUDA version drift</div>
-        <div text-xs opacity-70>Incompatible versions across environments</div>
+        <div text-sm font-medium>Monthly system updates</div>
+        <div text-xs opacity-70>Sometimes weekly releases</div>
       </div>
       <div>
-        <div text-sm font-medium>Dependency Lifecycle consistency</div>
-        <div text-xs opacity-70>From development to training to inference</div>
-      </div>
-      <div>
-        <div text-sm font-medium>Tool fragmentation</div>
-        <div text-xs opacity-70>pip / uv / conda / nix / pixi</div>
+        <div text-sm font-medium>Breakthrough research</div>
+        <div text-xs opacity-70>Reshaping industries within months</div>
       </div>
     </div>
   </div>
@@ -165,20 +126,24 @@ glowSeed: 100
 
 <div border="2 solid white/5" rounded-lg overflow-hidden bg="white/5" backdrop-blur-sm h-full>
   <div flex items-center bg="white/10" backdrop-blur px-3 py-2 rounded-md>
-    <div i-carbon:download text-blue-300 text-sm mr-2 />
+    <div i-carbon:warning-alt text-red-300 text-sm mr-2 />
     <div font-semibold>
-      Data Preparation
+      Professional Risk
     </div>
   </div>
   <div px-4 py-3>
     <div flex flex-col gap-3>
       <div>
-        <div text-sm font-medium>Unattended dataset/model preparation</div>
-        <div text-xs opacity-70>Time-consuming & error-prone processes</div>
+        <div text-sm font-medium>Rapid obsolescence</div>
+        <div text-xs opacity-70>Skills become outdated quickly</div>
       </div>
       <div>
-        <div text-sm font-medium>Disparate sources</div>
-        <div text-xs opacity-70>HuggingFace / S3 / NFS / Web</div>
+        <div text-sm font-medium>Career stagnation</div>
+        <div text-xs opacity-70>Falling behind industry standards</div>
+      </div>
+      <div>
+        <div text-sm font-medium>Competitive disadvantage</div>
+        <div text-xs opacity-70>Others advance while you plateau</div>
       </div>
     </div>
   </div>
@@ -186,20 +151,24 @@ glowSeed: 100
 
 <div border="2 solid white/5" rounded-lg overflow-hidden bg="white/5" backdrop-blur-sm h-full>
   <div flex items-center bg="white/10" backdrop-blur px-3 py-2 rounded-md>
-    <div i-carbon:data-check text-green-300 text-sm mr-2 />
+    <div i-carbon:growth text-green-300 text-sm mr-2 />
     <div font-semibold>
-      Data Governance
+      Growth Opportunity
     </div>
   </div>
   <div px-4 py-3>
     <div flex flex-col gap-3>
       <div>
-        <div text-sm font-medium>Sharing artifacts</div>
-        <div text-xs opacity-70>Across teams and Kubernetes namespaces</div>
+        <div text-sm font-medium>Career advancement</div>
+        <div text-xs opacity-70>AI skills open new opportunities</div>
       </div>
       <div>
-        <div text-sm font-medium>Version control & Reproducibility</div>
-        <div text-xs opacity-70>Tracking model & environment versions</div>
+        <div text-sm font-medium>Industry leadership</div>
+        <div text-xs opacity-70>Become a go-to AI expert</div>
+      </div>
+      <div>
+        <div text-sm font-medium>Future-proofing</div>
+        <div text-xs opacity-70>Stay relevant in evolving landscape</div>
       </div>
     </div>
   </div>
@@ -215,7 +184,7 @@ glowSeed: 100
     rounded-lg px-6 py-3 flex items-center gap-3
   >
     <div i-carbon:idea text-yellow-300 text-2xl />
-    <span text-lg>LLM projects face unique infrastructure challenges beyond traditional ML</span>
+    <span text-lg>Your foundation is solid - now build upon it consistently</span>
   </div>
 </div>
 
@@ -234,27 +203,23 @@ layout: center
 class: text-center
 ---
 
-# "It Works On My Machine"™
+# The 30-Minute Daily Learning Rule
 
-The ML Engineer's Lament
+Your Key to Staying Current
 
 <div class="mt-8 text-xl opacity-80">
-  How many times have you seen this?
+  Small daily investment, significant knowledge gains
 </div>
 
-<div class="mt-4 bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg px-1 py-0 text-left">
-
-```bash
-$ python train.py
-ImportError: libcudart.so.11.0: cannot open shared object file
-
-$ pip install torch --index-url https://download.pytorch.org/whl/cu118
-RuntimeError: CUDA error: no kernel image is available for execution
-
-$ ldd $(which python3) | grep 'not found'
-        libstdc++.so.6 => not found
-```
-
+<div v-click class="mt-8 bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg px-8 py-6">
+  <div class="text-6xl mb-4">⏰</div>
+  <div class="text-2xl font-bold mb-4">Just 30 Minutes Daily</div>
+  <div class="text-lg opacity-70">
+    Manageable even within the busiest schedules
+  </div>
+  <div class="text-lg opacity-70 mt-2">
+    Sufficient to keep you informed about major developments
+  </div>
 </div>
 
 <!--
@@ -273,64 +238,40 @@ class: py-10
 glowSeed: 175
 ---
 
-# Development vs Training: The Environment Gap
+# High-Quality Learning Resources
 
-<span>Bridging the divide between model development and production training</span>
+<span>Where to focus your daily 30 minutes</span>
 
 <div mt-6 grid grid-cols-2 gap-6>
   <div
     v-click
-    border="2 solid red-800" bg="red-800/20"
+    border="2 solid blue-800" bg="blue-800/20"
     rounded-lg overflow-hidden
   >
-    <div bg="red-800/40" px-4 py-2 flex items-center>
-      <div i-carbon:warning-alt text-red-300 text-xl mr-2 />
-      <span font-bold>The Common Pattern</span>
+    <div bg="blue-800/40" px-4 py-2 flex items-center>
+      <div i-carbon:blog text-blue-300 text-xl mr-2 />
+      <span font-bold>Industry Publications</span>
     </div>
     <div px-4 py-3 flex flex-col gap-2>
       <div flex items-center gap-2 py-1>
-        <div i-carbon:development text-amber-300 text-xl />
+        <div i-logos:medium text-xl />
         <div>
-          <div font-bold>Development</div>
-          <div text-sm opacity-80>Preparing new model training datasets</div>
+          <div font-bold>Medium.com</div>
+          <div text-sm opacity-80>AI practitioners and researchers share insights</div>
         </div>
       </div>
       <div flex items-center gap-2 py-1>
-        <div i-carbon:machine-learning-model text-amber-300 text-xl />
+        <div i-logos:linkedin text-xl />
         <div>
-          <div font-bold>Training</div>
-          <div text-sm opacity-80>Fine-tuning load with transformers lib</div>
+          <div font-bold>LinkedIn</div>
+          <div text-sm opacity-80>Real-world applications and case studies</div>
         </div>
       </div>
       <div flex items-center gap-2 py-1>
-        <div i-carbon:area-custom text-amber-300 text-xl />
+        <div i-logos:google text-xl />
         <div>
-          <div font-bold>Inference</div>
-          <div text-sm opacity-80>Inference from vLLM with transformers </div>
-        </div>
-      </div>
-      <div mt-2 bg="red-900/30" rounded-lg p-3 text-sm>
-        <div font-mono text-xs text-zinc-300 bg="black/30" p-2 rounded>
-          <div>pip install -r requirements.txt</div>
-          <div>python train.py</div>
-        </div>
-        <div mt-2 grid grid-cols-2 gap-2>
-          <div flex items-center gap-1 text-xs>
-            <div i-carbon:close text-red-400 />
-            <span>Dependency drift</span>
-          </div>
-          <div flex items-center gap-1 text-xs>
-            <div i-carbon:close text-red-400 />
-            <span>Repeated downloads</span>
-          </div>
-          <div flex items-center gap-1 text-xs>
-            <div i-carbon:close text-red-400 />
-            <span>No lockfile tracking</span>
-          </div>
-          <div flex items-center gap-1 text-xs>
-            <div i-carbon:close text-red-400 />
-            <span>Inconsistent versions</span>
-          </div>
+          <div font-bold>Targeted Searches</div>
+          <div text-sm opacity-80>"Latest trends in generative AI"</div>
         </div>
       </div>
     </div>
@@ -342,42 +283,33 @@ glowSeed: 175
     rounded-lg overflow-hidden
   >
     <div bg="green-800/40" px-4 py-2 flex items-center>
-      <div i-carbon:cloud-service-management text-green-300 text-xl mr-2 />
-      <span font-bold>The Dataset Solution</span>
+      <div i-carbon:research text-green-300 text-xl mr-2 />
+      <span font-bold>Research Institutions</span>
     </div>
     <div px-4 py-3 flex flex-col gap-2 h-full>
       <div bg="green-900/30" rounded-lg p-3 flex flex-col gap-2>
-        <div font-bold text-sm>Single Environment, Multiple Contexts</div>
+        <div font-bold text-sm>Leading AI Companies</div>
         <div flex items-center gap-2>
           <div i-carbon:checkmark-outline text-green-400 />
-          <span text-sm>Define once, use everywhere</span>
+          <span text-sm>OpenAI - Latest model releases</span>
         </div>
         <div flex items-center gap-2>
           <div i-carbon:checkmark-outline text-green-400 />
-          <span text-sm>Tracked dependencies with lockfiles</span>
+          <span text-sm>Google DeepMind - Research breakthroughs</span>
         </div>
         <div flex items-center gap-2>
           <div i-carbon:checkmark-outline text-green-400 />
-          <span text-sm>Automatic dependency resolution</span>
+          <span text-sm>Anthropic - Safety research</span>
+        </div>
+        <div flex items-center gap-2>
+          <div i-carbon:checkmark-outline text-green-400 />
+          <span text-sm>Microsoft - Enterprise AI</span>
         </div>
       </div>
-      <div bg="green-900/30" rounded-lg p-3 mt-1 h-44>
-        <div font-bold text-sm mb-2>Automatic Tool Integration</div>
-        <div grid grid-cols-2 gap-2 h-24>
-          <div flex items-center justify-center gap-2 bg="black/20" rounded p-2>
-            <div i-logos:jupyter text-xl min-w-7 />
-            <div text-xs>
-              <div font-bold>Jupyter</div>
-            </div>
-          </div>
-          <div flex items-center justify-center gap-2 bg="black/20" rounded p-2>
-            <div i-logos:visual-studio-code text-xl min-w-7 />
-            <div text-xs>
-              <div font-bold>VSCode</div>
-            </div>
-          </div>
-        </div>
-        <div text-xs text-center mt-2 text-green-300>No configuration needed - just click and use!</div>
+      <div bg="green-900/30" rounded-lg p-3 mt-1>
+        <div font-bold text-sm mb-2>Academic Conferences</div>
+        <div text-xs opacity-70>NeurIPS • ICML • ICLR</div>
+        <div text-xs text-center mt-2 text-green-300>Cutting-edge research that shapes the future</div>
       </div>
     </div>
   </div>
@@ -398,17 +330,17 @@ Ok, Neko, Can you  shed some light  for us?
 clicks: 3
 ---
 
-# When Python Meets C++
+# Maintain Practical Learning
 
-Dependency Hell Emerges
+Balance Theory with Hands-On Experience
 
 <div class="mt-8 flex flex-col justify-center items-center">
   <div v-click class="flex items-center gap-6">
     <div class="flex items-center justify-center">
-      <div class="text-[96px] i-logos:python" />
+      <div class="text-[96px] i-carbon:book"></div>
     </div>
     <div class="flex items-center justify-center">
-      <div class="text-[96px] i-logos:c-plusplus" />
+      <div class="text-[96px] i-carbon:tools"></div>
     </div>
   </div>
   <div
@@ -416,13 +348,13 @@ Dependency Hell Emerges
     class="text-center"
     transition="all duration-500 ease-in-out"
   >
-    <div class="text-8xl i-carbon:warning-alt mt-5 ml-5 text-red" />
+    <div class="text-8xl i-carbon:checkmark-filled mt-5 ml-5 text-green"></div>
   </div>
 </div>
 
 <div v-click class="mt-10 text-center">
-  <h3>The Perfect Storm: When Python Code Meets C++ Underpinnings</h3>
-  <p class="mt-4 text-xl opacity-70">ML libraries are just thin Python wrappers around massive C++ and CUDA codebases</p>
+  <h3>Don't Just Understand AI - Implement It</h3>
+  <p class="mt-4 text-xl opacity-70">Practical application reinforces learning and demonstrates value</p>
 </div>
 
 ---
@@ -430,9 +362,9 @@ class: py-10
 glowSeed: 123
 ---
 
-# The Silent Saboteurs
+# Essential AI Tools to Master
 
-<span>Hidden issues that break ML pipelines</span>
+<span>Continue exploring beyond the course</span>
 
 <div mt-4 />
 
@@ -448,10 +380,10 @@ glowSeed: 123
     transition duration-500 ease-in-out
   >
     <div px-2 py-12 flex items-center justify-center>
-      <div i-carbon:cics-program text-yellow-300 h-20 w-20 />
+      <div i-carbon:chat text-yellow-300 h-20 w-20 />
     </div>
     <div bg="yellow-800/30" w-full px-4 py-2 h="5rem" flex items-center justify-center text-center>
-      <span>ABI Incompatibility</span>
+      <span>ChatGPT</span>
     </div>
   </div>
   <div
@@ -463,10 +395,10 @@ glowSeed: 123
     transition duration-500 ease-in-out
   >
     <div px-2 py-12 flex items-center justify-center>
-      <div i-bi:gpu-card text-lime-300 h-20 w-20 />
+      <div i-logos:github-copilot h-20 w-20 />
     </div>
     <div bg="lime-800/30" w-full px-4 py-2 h="5rem" flex items-center justify-center text-center>
-      <span>CUDA Version Conflicts</span>
+      <span>GitHub Copilot</span>
     </div>
   </div>
   <div
@@ -478,10 +410,10 @@ glowSeed: 123
     transition duration-500 ease-in-out
   >
     <div px-2 py-12 flex items-center justify-center>
-      <div i-carbon:terminal text-emerald-300 h-20 w-20 />
+      <div i-carbon:cloud text-emerald-300 h-20 w-20 />
     </div>
     <div bg="emerald-800/30" w-full px-4 py-2 h="5rem" flex items-center justify-center text-center>
-      <span>System Library Conflicts</span>
+      <span>CodeWhisperer</span>
     </div>
   </div>
   <div
@@ -493,32 +425,32 @@ glowSeed: 123
     transition duration-500 ease-in-out
   >
     <div px-2 py-12 flex items-center justify-center>
-      <div i-carbon:row-delete text-sky-300 h-20 w-20 />
+      <div i-carbon:model text-sky-300 h-20 w-20 />
     </div>
     <div bg="sky-800/30" w-full px-4 py-2 h="5rem" flex items-center justify-center text-center>
-      <span>Package Inconsistencies</span>
+      <span>Hugging Face</span>
     </div>
   </div>
 </v-clicks>
 
 </div>
 
-<div v-click flex flex-col mt-4 bg="red-800/20" border="2 solid red-800/50" rounded-lg>
-  <div bg="red-800/30" px-4 py-2 text-red-200 flex items-center>
-    <div i-carbon:warning-alt mr-2 /> Real World Impact
+<div v-click flex flex-col mt-4 bg="green-800/20" border="2 solid green-800/50" rounded-lg>
+  <div bg="green-800/30" px-4 py-2 text-green-200 flex items-center>
+    <div i-carbon:idea mr-2 /> Expand Your Toolkit
   </div>
   <div flex justify-between px-6 py-4 text-sm>
     <div flex items-center gap-2>
-      <div i-carbon:time text-red-300 text-xl />
-      <span>Hours wasted reinstalling CUDA</span>
+      <div i-carbon:image text-green-300 text-xl />
+      <span>DALL-E & Midjourney</span>
     </div>
     <div flex items-center gap-2>
-      <div i-carbon:chart-evaluation text-red-300 text-xl />
-      <span>Inconsistent model results</span>
+      <div i-carbon:code text-green-300 text-xl />
+      <span>Advanced code generation</span>
     </div>
     <div flex items-center gap-2>
-      <div i-carbon:cloud-service-management text-red-300 text-xl />
-      <span>Broken production deployments</span>
+      <div i-carbon:industry text-green-300 text-xl />
+      <span>Industry-specific AI tools</span>
     </div>
   </div>
 </div>
@@ -529,9 +461,9 @@ clicks: 4
 glowSeed: 180
 ---
 
-# The Hidden Iceberg: What pip Can't See
+# Build Your Own Projects
 
-<span>The deceptive simplicity of Python dependencies</span>
+<span>Apply AI to solve real problems</span>
 
 <div mt-8 />
 
@@ -542,60 +474,31 @@ glowSeed: 180
     transition duration-500 ease-in-out
     :class="$clicks < 1 ? 'opacity-0 translate-x--20' : 'opacity-100 translate-x-0'"
   >
-    <div relative h-90 w-90>
-      <!-- Iceberg water effect -->
-      <div
-        absolute bottom-0 w-full bg="blue-500/20" h-60 rounded-t-full
-        class="animate-name-pulse animate-iteration-count-[infinite] animate-direction-normal animate-duration-8000 animate-ease-in-out"
-      ></div>
-      <!-- Visible part -->
-      <div
-        absolute top-0 w-90
-        transition duration-500 ease-in-out
-        :class="$clicks === 2 ? 'scale-110 z-10' : ''"
-      >
-        <div border="2 solid sky-800" bg="sky-800/20" backdrop-blur rounded-lg p-3>
-          <div flex items-center mb-4>
-            <div i-carbon:cloud-ceiling text-sky-300 text-xl mr-2 />
-            <span font-bold>Seems installing</span>
-          </div>
-          <div
-            font-mono text-sm px-4 py-3 bg="black/30" rounded-lg
-          >
-            torch==2.1.0
-            transformers==4.36.0
-            accelerate==0.25.0
-          </div>
-        </div>
+    <div border="2 solid sky-800" bg="sky-800/20" backdrop-blur rounded-lg p-4 h-full>
+      <div flex items-center mb-4>
+        <div i-carbon:application text-sky-300 text-xl mr-2 />
+        <span font-bold>Project Ideas</span>
       </div>
-      <!-- Hidden part -->
-      <div
-        v-click="2"
-        absolute bottom-0 w-90
-        transition duration-500 ease-in-out
-        :class="$clicks < 2 ? 'opacity-0 translate-y-20' : 'opacity-100 translate-y-0'"
-      >
-        <div border="2 solid blue-800" bg="blue-800/20" backdrop-blur rounded-lg p-3>
-          <div flex items-center mb-4>
-            <div i-carbon:ibm-cloud-secrets-manager text-blue-300 text-xl mr-2 />
-            <span font-bold>But actually...</span>
-          </div>
-          <div
-            font-mono text-xs px-3 py-3 bg="black/30" rounded-lg
-            max-h-40 overflow-y-auto
-          >
-            <div text-blue-300>CUDA 11.8</div>
-            <div>gcc 9.4.0</div>
-            <div>cmake 3.22.1</div>
-            <div>libnccl2</div>
-            <div>libcudnn8</div>
-            <div>cuda-cupti-dev</div>
-            <div>libstdc++.so.6</div>
-            <div>libopenblas.so</div>
-            <div>libpython3.10.so</div>
-            <div>libcublas.so</div>
-            <div text-zinc-500>...and dozens more</div>
-          </div>
+      <div flex flex-col gap-3 text-sm>
+        <div flex items-center gap-2>
+          <div i-carbon:automation text-green-400 />
+          <span>Automate routine tasks</span>
+        </div>
+        <div flex items-center gap-2>
+          <div i-carbon:document text-green-400 />
+          <span>Generate content for your industry</span>
+        </div>
+        <div flex items-center gap-2>
+          <div i-carbon:analytics text-green-400 />
+          <span>Analyze data with AI assistance</span>
+        </div>
+        <div flex items-center gap-2>
+          <div i-carbon:application-web text-green-400 />
+          <span>Build AI-powered applications</span>
+        </div>
+        <div flex items-center gap-2>
+          <div i-carbon:model-tuned text-green-400 />
+          <span>Fine-tune models for specific use cases</span>
         </div>
       </div>
     </div>
@@ -603,62 +506,46 @@ glowSeed: 180
 
   <div w="1/2">
     <div
-      v-click="3"
+      v-click="2"
       border="2 solid violet-800" bg="violet-800/20"
-      rounded-lg overflow-hidden
+      rounded-lg overflow-hidden mb-4
       transition duration-500 ease-in-out
-      :class="$clicks < 3 ? 'opacity-0 translate-x-20' : 'opacity-100 translate-x-0'"
+      :class="$clicks < 2 ? 'opacity-0 translate-x-20' : 'opacity-100 translate-x-0'"
     >
       <div bg="violet-800/40" px-3 py-2 flex items-center>
-        <div i-logos:python text-xl mr-2 />
-        <span text-sm font-bold>Python Package Managers</span>
+        <div i-carbon:portfolio text-xl mr-2 />
+        <span text-sm font-bold>Build Your Portfolio</span>
       </div>
       <div px-3 py-3 flex flex-col gap-1 text-sm>
-        <div flex items-center gap-2 text-nowrap>
-          <div i-carbon:checkmark-outline text-green-400 min-w-5 />
-          <span>Handle Python dependencies well</span>
+        <div flex items-center gap-2>
+          <div i-carbon:checkmark-outline text-green-400 />
+          <span>Document your experiments</span>
         </div>
-        <div flex items-center gap-2 text-nowrap>
-          <div i-carbon:close text-red-400 min-w-5 />
-          <span>Blind to underlying C++ libraries</span>
+        <div flex items-center gap-2>
+          <div i-carbon:checkmark-outline text-green-400 />
+          <span>Demonstrate capabilities to employers</span>
         </div>
-        <div flex items-center gap-2 text-nowrap>
-          <div i-carbon:close text-red-400 min-w-5 />
-          <span>Cannot handle compiler compatibility</span>
+        <div flex items-center gap-2>
+          <div i-carbon:checkmark-outline text-green-400 />
+          <span>Create value for your organization</span>
         </div>
       </div>
     </div>
     <div
-      v-click="4"
-      mt-4 border="2 solid yellow-800" bg="yellow-800/20"
+      v-click="3"
+      border="2 solid yellow-800" bg="yellow-800/20"
       rounded-lg overflow-hidden
       transition duration-500 ease-in-out
-      :class="$clicks < 4 ? 'opacity-0 translate-x-20' : 'opacity-100 translate-x-0'"
+      :class="$clicks < 3 ? 'opacity-0 translate-x-20' : 'opacity-100 translate-x-0'"
     >
       <div bg="yellow-800/40" px-3 py-2 flex items-center text-sm>
-        <div i-carbon:warning-alt text-yellow-300 text-xl mr-2 />
-        <span font-bold>The Reality</span>
+        <div i-carbon:idea text-yellow-300 text-xl mr-2 />
+        <span font-bold>Remember</span>
       </div>
       <div px-4 py-3>
-        <div text-xs opacity-80>
-          Modern ML libraries are just thin Python wrappers around massive C++ and CUDA codebases
+        <div text-sm opacity-80>
+          Practical knowledge comes only through hands-on experience and experimentation
         </div>
-        <div flex items-center gap-2 mb-2 mt-8>
-            <div i-carbon:chart-relationship text-yellow-300 />
-            <span font-bold>Dependency Complexity</span>
-          </div>
-          <div flex justify-between text-xs>
-            <div>PyTorch source:</div>
-            <div text-yellow-300>1.8M+ lines of C++</div>
-          </div>
-          <div flex justify-between text-xs>
-            <div>Python wrapper:</div>
-            <div text-yellow-300>~100K lines of Python</div>
-          </div>
-          <div flex justify-between text-xs>
-            <div>Binary size:</div>
-            <div text-yellow-300>1.7GB+ with CUDA</div>
-          </div>
       </div>
     </div>
   </div>
@@ -668,42 +555,44 @@ glowSeed: 180
 layout: center
 ---
 
-# CUDA Conundrum: The Version Wars
+# You Are Not Alone
+
+Ongoing Support for Your AI Journey
 
 <div class="grid grid-cols-3 gap-2 mt-6">
   <div v-click class="flex flex-col items-center bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-6">
-    <div class="text-4xl mb-4">🎯</div>
-    <h3>Version 11.6</h3>
-    <p class="text-sm opacity-70">Legacy Model</p>
-    <p class="text-xs mt-2 text-red-300">Required by older frameworks</p>
+    <div class="text-4xl mb-4">🎓</div>
+    <h3>Lifetime Support</h3>
+    <p class="text-sm opacity-70">Course Alumni</p>
+    <p class="text-xs mt-2 text-green-300">Q&A platform access</p>
   </div>
   <div v-click class="flex flex-col items-center bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-6">
-    <div class="text-4xl mb-4">🎯</div>
-    <h3>Version 11.8</h3>
-    <p class="text-sm opacity-70">PyTorch's Choice</p>
-    <p class="text-xs mt-2 text-green-300">Optimized for current models</p>
+    <div class="text-4xl mb-4">💬</div>
+    <h3>Direct Messaging</h3>
+    <p class="text-sm opacity-70">Personal Guidance</p>
+    <p class="text-xs mt-2 text-blue-300">Technical & career advice</p>
   </div>
   <div v-click class="flex flex-col items-center bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-6">
-    <div class="text-4xl mb-4">🎯</div>
-    <h3>Version 12.1</h3>
-    <p class="text-sm opacity-70">System Default</p>
-    <p class="text-xs mt-2 text-yellow-300">Newest features, compatibility issues</p>
+    <div class="text-4xl mb-4">🌐</div>
+    <h3>AI Community</h3>
+    <p class="text-sm opacity-70">Professional Network</p>
+    <p class="text-xs mt-2 text-yellow-300">Collaborative learning</p>
   </div>
 </div>
 
 <div v-click class="mt-2 grid grid-cols-2 gap-2">
   <div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-4">
-    <h3 class="mb-2">CUDA Complexity</h3>
+    <h3 class="mb-2">What We Support</h3>
     <ul class="space-y-1 text-sm">
-      <li>• Driver vs Runtime version mismatch</li>
-      <li>• cuDNN compatibility matrix</li>
-      <li>• NCCL version requirements</li>
+      <li>• Technical implementation questions</li>
+      <li>• Career direction in AI</li>
+      <li>• Skill prioritization advice</li>
     </ul>
   </div>
 
   <div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-4">
-    <h3 class="mb-2">The Silent Killer</h3>
-    <p class="text-sm text-red-400">Often fails with cryptic errors or worse - <span class="font-bold">silent numerical errors</span> in your models</p>
+    <h3 class="mb-2">Community Benefits</h3>
+    <p class="text-sm text-green-400">Connect with practitioners, attend meetups, and build professional relationships that lead to career opportunities</p>
   </div>
 </div>
 
@@ -713,9 +602,9 @@ clicks: 6
 glow: right
 ---
 
-# Compiler Chaos: When gcc Versions Wage War
+# Set Realistic Learning Expectations
 
-<span>The battlefield of binary compatibility</span>
+<span>Focus on what matters for your career</span>
 
 <div mt-6 />
 
@@ -729,24 +618,24 @@ glow: right
       rounded-lg p-4
     >
       <div flex items-center>
-        <div i-devicon:gcc text-3xl mr-2 />
-        <span font-bold>GCC Version Matrix</span>
+        <div i-carbon:target text-3xl mr-2 />
+        <span font-bold>Focused Learning Areas</span>
       </div>
-      <div mt-4 flex justify-around>
+      <div mt-4 flex flex-col gap-2>
         <div
-          v-for="(version, idx) in ['2.7.0', '13.1']"
-          :key="version"
+          v-for="(area, idx) in ['Content Creation', 'Software Development', 'Business Operations']"
+          :key="area"
           :class="[
-            'relative px-4 py-3 rounded-lg border-2 transition-all duration-500',
-            $clicks >= idx+1 ? 'border-sky-500 scale-110' : 'border-zinc-700 opacity-50'
+            'px-4 py-3 rounded-lg border-2 transition-all duration-500',
+            $clicks >= idx+1 ? 'border-sky-500 bg-sky-500/20' : 'border-zinc-700 opacity-50'
           ]"
         >
-          <span font-mono text-lg>{{version}}</span>
+          <span font-semibold>{{area}}</span>
           <div
             v-if="$clicks >= idx+1"
-            class="absolute -top-2 -right-2 rounded-full bg-sky-500 px-2 py-0.5 text-xs"
+            class="text-xs mt-1 opacity-70"
           >
-            {{['PyTorch', 'gcc'][idx]}}
+            {{['Text & image generation', 'Code generation & debugging', 'Process automation & decisions'][idx]}}
           </div>
         </div>
       </div>
@@ -755,31 +644,15 @@ glow: right
       v-motion
       :initial="{ opacity: 0, y: 50 }"
       :enter="{ opacity: 1, y: 0, transition: { delay: 400 } }"
-      mt-4 border="2 solid red-800" bg="red-800/20"
+      mt-4 border="2 solid green-800" bg="green-800/20"
       rounded-lg p-4
     >
       <div flex items-center>
-        <div i-carbon:warning-alt text-red-300 text-xl mr-2 />
-        <span font-bold>Binary Incompatibility</span>
+        <div i-carbon:checkmark-filled text-green-300 text-xl mr-2 />
+        <span font-bold>Smart Strategy</span>
       </div>
-      <div
-        mt-3 flex flex-col gap-2
-        :class="{ 'animate-pulse': $clicks >= 4 }"
-      >
-        <div
-          bg="red-900/50"
-          rounded px-3 py-2 font-mono text-sm
-          :class="{ 'text-red-300': $clicks >= 4 }"
-        >
-          ImportError: /lib64/libstdc++.so.6: version 'GLIBCXX_3.4.29' not found
-        </div>
-        <div
-          bg="red-900/50"
-          rounded px-3 py-2 font-mono text-sm
-          :class="{ 'text-red-300': $clicks >= 5 }"
-        >
-          undefined symbol: _ZN3c10...
-        </div>
+      <div mt-3 text-sm opacity-80>
+        You don't need to become an expert in every aspect of AI. Focus on areas most relevant to your career goals.
       </div>
     </div>
   </div>
@@ -793,44 +666,34 @@ glow: right
       rounded-lg p-4 h-full
     >
       <div flex items-center>
-        <div i-carbon:code text-blue-300 text-xl mr-2 />
-        <span font-bold>C++ ABI Changes</span>
+        <div i-carbon:growth text-blue-300 text-xl mr-2 />
+        <span font-bold>Prevent Learning Overwhelm</span>
       </div>
-      <div mt-4 flex flex-col gap-2>
+      <div mt-4 flex flex-col gap-3>
+        <div
+          v-click="4"
+          flex items-center gap-2 p-2 rounded bg="blue-900/30"
+        >
+          <div i-carbon:checkmark-outline text-green-400 />
+          <span text-sm>Deep expertise in relevant areas</span>
+        </div>
+        <div
+          v-click="5"
+          flex items-center gap-2 p-2 rounded bg="blue-900/30"
+        >
+          <div i-carbon:checkmark-outline text-green-400 />
+          <span text-sm>Applicable skills for advancement</span>
+        </div>
         <div
           v-click="6"
-          flex flex-col border="2 solid blue-900/50" rounded-lg overflow-hidden h-50
+          flex items-center gap-2 p-2 rounded bg="blue-900/30"
         >
-          <div bg="blue-800/50" py-1 px-3 text-sm>String Implementation</div>
-          <div font-mono text-xs p-2>
-            <div class="text-blue-300">// GCC 4.x</div>
-            struct string {
-              char* _M_p;
-              size_t _M_string_length;
-            };
-            <div class="text-green-300">// GCC 5.x+</div>
-            struct string {
-              union { ... } _M_dataplus;
-              ... _M_string_length;
-            };
-          </div>
-        </div>
-        <div flex justify-center items-center text-lg text-red-300 font-bold>
-          <div i-carbon:arrow-down animate-bounce text-2xl />
-          <span ml-2>Memory Layout Mismatch</span>
+          <div i-carbon:checkmark-outline text-green-400 />
+          <span text-sm>Sustainable learning pace</span>
         </div>
       </div>
     </div>
   </div>
-</div>
-
-<div
-  v-click="6"
-  flex justify-center mt-4 bg="indigo-800/30"
-  rounded-lg py-3 items-center
->
-  <div i-carbon:face-dizzy text-2xl mr-2 />
-  <span text-xl>The Developer Experience: "It works differently everywhere!"</span>
 </div>
 
 ---
@@ -839,31 +702,31 @@ clicks: 7
 glowSeed: 350
 ---
 
-# Why Reusable Environments Matter
+# Your AI Learning Foundation
 
-<span>From hours of frustration to seconds of mounting</span>
+<span>What you've accomplished and what's ahead</span>
 
 <div mt-6 />
 
 <div grid grid-cols-2 gap-6>
   <div
     v-click="1"
-    border="2 solid red-800" bg="red-800/20"
+    border="2 solid green-800" bg="green-800/20"
     rounded-lg overflow-hidden
     transition duration-500 ease-in-out
     :class="$clicks < 1 ? 'opacity-0 scale-90' : 'opacity-100 scale-100'"
   >
-    <div bg="red-800/40" px-4 py-2 flex items-center>
-      <div i-carbon:warning-alt text-red-300 text-xl mr-2 />
-      <span font-bold>Traditional Workflow</span>
+    <div bg="green-800/40" px-4 py-2 flex items-center>
+      <div i-carbon:checkmark-filled text-green-300 text-xl mr-2 />
+      <span font-bold>What You've Gained</span>
     </div>
     <div px-5 py-4 flex flex-col gap-2>
       <div
         v-for="(item, idx) in [
-          'Different setups across team',
-          'Hours reinstalling CUDA',
-          'Notebook vs. production mismatch',
-          'Works locally, fails in prod'
+          'Strong AI foundation',
+          'Hands-on tool experience',
+          'Ethical AI awareness',
+          'Learning framework skills'
         ]"
         :key="item"
         v-click="2 + idx"
@@ -871,7 +734,7 @@ glowSeed: 350
         :class="$clicks < (2 + idx) ? 'opacity-0 translate-x--10' : 'opacity-100 translate-x-0'"
         transition duration-300 ease-in-out
       >
-        <div i-carbon:close-filled text-red-400 />
+        <div i-carbon:checkmark-filled text-green-400 />
         <span>{{item}}</span>
       </div>
     </div>
@@ -879,27 +742,27 @@ glowSeed: 350
 
   <div
     v-click="6"
-    border="2 solid lime-800" bg="lime-800/20"
+    border="2 solid blue-800" bg="blue-800/20"
     rounded-lg overflow-hidden
     transition duration-500 ease-in-out
     :class="$clicks < 6 ? 'opacity-0 scale-90' : 'opacity-100 scale-100'"
   >
-    <div bg="lime-800/40" px-4 py-2 flex items-center>
-      <div i-carbon:ai-status-in-progress text-lime-300 text-xl mr-2 />
-      <span font-bold>Reusable Environments</span>
+    <div bg="blue-800/40" px-4 py-2 flex items-center>
+      <div i-carbon:rocket text-blue-300 text-xl mr-2 />
+      <span font-bold>Your Next Steps</span>
     </div>
     <div px-5 py-4 flex flex-col gap-2>
       <div
         v-for="item in [
-          'One environment definition, everywhere',
-          'Install once, mount instantly',
-          'Identical experience for all team members',
-          'Seamless dev-to-prod workflow'
-        ]"carbon:help-filled
+          '30 minutes daily learning',
+          'Practical tool exploration',
+          'Build real projects',
+          'Connect with AI community'
+        ]"
         :key="item"
         flex items-center gap-2
       >
-        <div i-carbon:help-filled text-lime-400 />
+        <div i-carbon:arrow-right text-blue-400 />
         <span>{{item}}</span>
       </div>
     </div>
@@ -910,54 +773,12 @@ glowSeed: 350
   <div flex items-center justify-center>
     <div
       transition duration-500 ease-in-out
-      relative flex bg="neutral-800/50" border="2 solid neutral-600" rounded-xl p-2 gap-2 max-w-180
+      bg="gradient-to-r from-blue-800/30 to-green-800/30" border="2 solid blue-600" rounded-xl p-6 max-w-180
     >
-      <div w-80 bg="red-900/30" rounded-lg p-3 relative>
-        <div absolute top--3 left-3 bg="red-700" text-xs px-2 py-0.5 rounded-full>Without Reusable Environments</div>
-        <div flex items-center gap-2 text-xl>
-          <div i-carbon:time text-red-300 />
-          <span font-bold>4-6 Hours</span>
-        </div>
-        <div text-sm mt-2 opacity-70>
-          Per developer, per environment setup
-        </div>
-        <div flex flex-col gap-1 mt-4>
-          <div flex items-center text-xs gap-1>
-            <div i-carbon:close-filled text-red-400 text-sm />
-            <span>Manual CUDA installation</span>
-          </div>
-          <div flex items-center text-xs gap-1>
-            <div i-carbon:close-filled text-red-400 text-sm />
-            <span>System library conflicts</span>
-          </div>
-          <div flex items-center text-xs gap-1>
-            <div i-carbon:close-filled text-red-400 text-sm />
-            <span>Disk space duplication</span>
-          </div>
-        </div>
-      </div>
-      <div w-80 bg="white/5" rounded-lg p-3 relative>
-        <div absolute top--3 left-3 bg="white/50" text-xs px-2 py-0.5 rounded-full>With Reusable Environments</div>
-        <div flex items-center gap-2 text-xl>
-          <div i-carbon:time text-white  />
-          <span font-bold>30 Seconds</span>
-        </div>
-        <div text-sm mt-2 opacity-70>
-          Just mount the shared environment
-        </div>
-        <div flex flex-col gap-1 mt-4>
-          <div flex items-center text-xs gap-1>
-            <div i-carbon:help-filled text-white text-sm />
-            <span>Pre-built environments</span>
-          </div>
-          <div flex items-center text-xs gap-1>
-            <div i-carbon:help-filled text-white text-sm />
-            <span>Consistent across team</span>
-          </div>
-          <div flex items-center text-xs gap-1>
-            <div i-carbon:help-filled text-white text-sm />
-            <span>Efficient storage usage</span>
-          </div>
+      <div text-center>
+        <div text-2xl font-bold mb-2>🚀 Your AI Adventure Begins Now</div>
+        <div text-lg opacity-80>
+          The future belongs to those who embrace AI and use it to create meaningful value
         </div>
       </div>
     </div>
@@ -965,183 +786,101 @@ glowSeed: 350
 </div>
 
 ---
-class: py-10
-clicks: 5
-glow: left
+layout: center
+class: text-center
 ---
 
-# The Usual Suspects: Tools We've Tried
+# Thank You
 
-<span>What works, what doesn't, and why</span>
+Your Commitment to Learning is Inspiring
 
-<div mt-4 />
+<div class="mt-8 text-xl opacity-80">
+  Teaching AI and seeing students develop practical capabilities is incredibly rewarding
+</div>
 
-<div flex justify-center>
-  <div
-    v-motion
-    :initial="{ opacity: 0, y: 40 }"
-    :enter="{ opacity: 1, y: 0, transition: { duration: 600 } }"
-    grid grid-cols-3 gap-4 w-full text-sm
-  >
-    <div
-      v-click="1"
-      border="2 solid yellow-800" bg="yellow-800/20"
-      rounded-lg overflow-hidden transition-all duration-500
-      :class="$clicks === 5 ? 'opacity-40' : ''"
-    >
-      <div bg="yellow-800/40" px-4 py-3 flex items-center>
-        <div i-logos:python text-3xl mr-3 />
-        <span font-bold>pip & uv</span>
-      </div>
-      <div px-4 py-3 flex flex-col gap-2>
-        <div flex items-center gap-2>
-          <div i-carbon:checkmark-outline text-green-400 />
-          <span>Fast for Python packages</span>
-        </div>
-        <div flex items-center gap-2>
-          <div i-carbon:close text-red-400 />
-          <span>Blind to C++/CUDA deps</span>
-        </div>
-        <div flex items-center gap-2>
-          <div i-carbon:close text-red-400 />
-          <span>No system library management</span>
-        </div>
-        <div flex items-center gap-2>
-          <div i-carbon:close text-red-400 />
-          <span>Version conflicts common</span>
-        </div>
-      </div>
-    </div>
-    <div
-      v-click="2"
-      border="2 solid cyan-800" bg="cyan-800/20"
-      rounded-lg overflow-hidden transition-all duration-500
-      :class="$clicks === 5 ? 'opacity-40' : ''"
-    >
-      <div bg="cyan-800/40" px-4 py-3 flex items-center>
-        <div i-devicon:docker text-3xl mr-3 />
-        <span font-bold>Docker</span>
-      </div>
-      <div px-4 py-3 flex flex-col gap-2>
-        <div flex items-center gap-2>
-          <div i-carbon:checkmark-outline text-green-400 />
-          <span>Reproducible environments</span>
-        </div>
-        <div flex items-center gap-2>
-          <div i-carbon:close text-red-400 />
-          <span>Massive image sizes (5-10GB)</span>
-        </div>
-        <div flex items-center gap-2>
-          <div i-carbon:close text-red-400 />
-          <span>Slow build times (30+ min)</span>
-        </div>
-        <div flex items-center gap-2>
-          <div i-carbon:close text-red-400 />
-          <span>Resource intensive</span>
-        </div>
-      </div>
-    </div>
-    <div
-      v-click="3"
-      border="2 solid blue-800" bg="blue-800/20"
-      rounded-lg overflow-hidden transition-all duration-500
-      :class="$clicks === 5 ? 'opacity-40' : ''"
-    >
-      <div bg="blue-800/40" px-4 py-3 flex items-center>
-        <div i-devicon:nixos text-3xl mr-3 />
-        <span font-bold>Nix</span>
-      </div>
-      <div px-4 py-3 flex flex-col gap-2>
-        <div flex items-center gap-2>
-          <div i-carbon:checkmark-outline text-green-400 />
-          <span>Complete reproducibility</span>
-        </div>
-        <div flex items-center gap-2>
-          <div i-carbon:close text-red-400 />
-          <span>PhD-level learning curve</span>
-        </div>
-        <div flex items-center gap-2>
-          <div i-carbon:close text-red-400 />
-          <span>Complex configuration</span>
-        </div>
-        <div flex items-center gap-2>
-          <div i-carbon:close text-red-400 />
-          <span>K8s integration challenges</span>
-        </div>
-      </div>
-    </div>
+<div v-click class="mt-8 grid grid-cols-2 gap-6">
+  <div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-6">
+    <div class="text-4xl mb-4">⭐</div>
+    <h3 class="mb-2">Share Your Experience</h3>
+    <p class="text-sm opacity-70">Your feedback helps other learners discover this course and begin their AI journey</p>
+  </div>
+  
+  <div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-6">
+    <div class="text-4xl mb-4">🌟</div>
+    <h3 class="mb-2">Keep Learning</h3>
+    <p class="text-sm opacity-70">Remember: consistency beats intensity. 30 minutes daily will transform your AI expertise</p>
   </div>
 </div>
 
-<div
-  v-click="4"
-  mt-4 transition-all duration-500
-  :class="$clicks < 4 ? 'opacity-0 scale-95' : 'opacity-100 scale-100'"
->
-  <div flex items-center justify-center>
-    <div relative>
-      <div
-        border="2 solid green-800" bg="green-800/20"
-        rounded-lg p-4 w-full
-      >
-        <div text-center font-bold text-xl mb-3>What We Need</div>
-        <div grid grid-cols-3 gap-2>
-          <div flex items-center gap-2>
-            <div i-carbon:checkmark-outline text-green-400 />
-            <span text-nowrap>Python package management</span>
-          </div>
-          <div flex items-center gap-2>
-            <div i-carbon:checkmark-outline text-green-400 />
-            <span text-nowrap>C++/CUDA awareness</span>
-          </div>
-          <div flex items-center gap-2>
-            <div i-carbon:checkmark-outline text-green-400 />
-            <span text-nowrap>Storage efficiency</span>
-          </div>
-          <div flex items-center gap-2>
-            <div i-carbon:checkmark-outline text-green-400 />
-            <span text-nowrap>Fast setup times</span>
-          </div>
-          <div flex items-center gap-2>
-            <div i-carbon:checkmark-outline text-green-400 />
-            <span text-nowrap>K8s native</span>
-          </div>
-          <div flex items-center gap-2>
-            <div i-carbon:checkmark-outline text-green-400 />
-            <span text-nowrap>Team consistency</span>
-          </div>
-        </div>
-      </div>
+<div v-click class="mt-8 text-2xl font-bold text-gradient bg-gradient-to-r from-blue-400 to-green-400 bg-clip-text text-transparent">
+  Your AI Learning Adventure is Just Getting Started! 🚀
+</div>
+
+---
+layout: center
+class: text-center
+---
+
+# Key Takeaways
+
+Essential Points to Remember
+
+<div class="mt-8 grid grid-cols-1 gap-4 max-w-4xl mx-auto">
+  <div v-click class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-4 flex items-center gap-4">
+    <div class="text-3xl">⏰</div>
+    <div class="text-left">
+      <div class="font-bold">30-Minute Daily Rule</div>
+      <div class="text-sm opacity-70">Small daily investment, significant knowledge gains</div>
+    </div>
+  </div>
+  
+  <div v-click class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-4 flex items-center gap-4">
+    <div class="text-3xl">🛠️</div>
+    <div class="text-left">
+      <div class="font-bold">Practical Application</div>
+      <div class="text-sm opacity-70">Build projects, solve real problems, create value</div>
+    </div>
+  </div>
+  
+  <div v-click class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-4 flex items-center gap-4">
+    <div class="text-3xl">🎯</div>
+    <div class="text-left">
+      <div class="font-bold">Focused Learning</div>
+      <div class="text-sm opacity-70">Prioritize areas relevant to your career goals</div>
+    </div>
+  </div>
+  
+  <div v-click class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-4 flex items-center gap-4">
+    <div class="text-3xl">🤝</div>
+    <div class="text-left">
+      <div class="font-bold">Community Support</div>
+      <div class="text-sm opacity-70">You have lifetime access to guidance and networking</div>
     </div>
   </div>
 </div>
 
 ---
-glowSeed: 12129
+layout: center
 ---
 
-# Introducing Datasets
+# The AI Ecosystem Challenge
 
-Python + C++ Harmony in K8S
-
-<div class="mt-6 flex justify-center">
-  <div class="relative w-120 h-60">
+<div class="relative w-full h-60">
     <div v-click class="absolute inset-0 flex items-center justify-center">
-      <div class="text-[150px] i-logos:kubernetes" />
+      <div class="text-[150px] i-logos:kubernetes"></div>
     </div>
     <div v-click class="absolute top-17 left--4">
-      <div class="text-7xl i-logos:python" />
+      <div class="text-7xl i-logos:python"></div>
     </div>
     <div v-click class="absolute top-18 right--16">
-      <div class="text-4xl i-logos:conda" />
+      <div class="text-4xl i-logos:conda"></div>
     </div>
     <div v-click class="absolute bottom--4 left-8">
-      <div class="text-[100px] i-devicon:docker" />
+      <div class="text-[100px] i-devicon:docker"></div>
     </div>
     <div v-click class="absolute bottom-4 right--8">
-      <div class="text-4xl i-logos:nvidia" />
+      <div class="text-4xl i-logos:nvidia"></div>
     </div>
-  </div>
 </div>
 
 <div v-click class="mt-8 text-center">
@@ -2369,227 +2108,78 @@ Supercharging environment creation
   </div>
 </div>
 
+
+
 ---
-class: py-10
-clicks: 2
-glowSeed: 338
+layout: center
+class: text-center
 ---
 
-# Pixi Integration: How Fast?
+# Thank You
 
-100x difference in environment setup times!
+Your Commitment to Learning is Inspiring
 
-<div mt-4 />
+<div class="mt-8 text-xl opacity-80">
+  Teaching AI and seeing students develop practical capabilities is incredibly rewarding
+</div>
 
-<div
-  v-click
-  transition duration-500 ease-in-out
-  :class="$clicks < 1 ? 'opacity-0 scale-90' : 'opacity-100 scale-100'"
->
-  <!-- Chart container with proper dimensions -->
-  <div relative h-100 w-full>
-    <!-- Chart header -->
-    <div
-      border="2 solid neutral-700" bg="neutral-800/50"
-      rounded-t-lg px-3 py-2
-    >
-      <div flex items-center justify-between>
-        <div flex items-center gap-2>
-          <div i-carbon:chart-column text-xl text-sky-300 />
-          <div font-bold text-xs>Setup Time Comparison</div>
-        </div>
-        <div text-sm text-zinc-400>Smaller is better</div>
-      </div>
-    </div>
-    <!-- Chart bars -->
-    <div
-      border-x="2 solid neutral-700" border-b="2 solid neutral-700"
-      bg="neutral-900/50" rounded-b-lg px-3 pb-3 h-90 pt-6
-    >
-      <div flex items-end justify-center gap-20 h-full>
-        <!-- Conda bar -->
-        <div flex flex-col items-center justify-end h-full>
-          <div h="75%" w-30 bg="red-800/40" rounded-t-lg flex items-center justify-center relative>
-            <span text-2xl font-bold text-red-300>45+</span>
-            <span text-sm text-red-300 absolute top-2 right-2>min</span>
-            <div absolute top="-10" w-full flex justify-center>
-              <div bg="red-900/60" border="2 solid red-700" rounded-full px-2 py-1 text-xs flex items-center text-nowrap w-fit>
-                ~100× slower
-              </div>
-            </div>
-          </div>
-          <div py-2 font-semibold>Conda</div>
-          <div text-xs text-zinc-400 flex items-center gap-1>
-            <div i-carbon:warning-alt text-red-300 />
-            <span>Sequential installation</span>
-          </div>
-        </div>
-        <!-- Datasets + Pixi bar -->
-        <div flex flex-col items-center>
-          <div
-            h-10 w-30 bg="green-800/40"
-            rounded-t-lg flex items-center justify-center relative
-            class="animate-name-pulse animate-iteration-count-[infinite] animate-direction-normal animate-duration-3000 animate-ease-in-out"
-          >
-            <span text-2xl font-bold text-green-300>~30</span>
-            <span text-sm text-green-300 absolute top-2 right-2>sec</span>
-            <div absolute top="-10" left="0" w-full flex justify-center>
-              <div bg="green-900/60" border="2 solid green-700" rounded-full px-3 py-1 text-xs flex items-center text-nowrap w-fit>
-                <div i-carbon:flash text-yellow-300 inline-block />
-                Fastest
-              </div>
-            </div>
-          </div>
-          <div py-2 font-semibold>Pixi</div>
-          <div text-xs text-green-400 flex items-center gap-1>
-            <div i-carbon:checkmark-outline />
-            <span>Parallel processing</span>
-          </div>
-        </div>
-      </div>
-    </div>
+<div v-click class="mt-8 grid grid-cols-2 gap-6">
+  <div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-6">
+    <div class="text-4xl mb-4">⭐</div>
+    <h3 class="mb-2">Share Your Experience</h3>
+    <p class="text-sm opacity-70">Your feedback helps other learners discover this course and begin their AI journey</p>
+  </div>
+  
+  <div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-6">
+    <div class="text-4xl mb-4">🌟</div>
+    <h3 class="mb-2">Keep Learning</h3>
+    <p class="text-sm opacity-70">Remember: consistency beats intensity. 30 minutes daily will transform your AI expertise</p>
   </div>
 </div>
 
----
-class: py-10
-glowSeed: 250
----
-
-# Metrics in summary
-
-<span>The measurable benefits of Datasets</span>
-
-<div mt-4 />
-
-<div
-  grid grid-cols-3 gap-4
-  transition duration-500 ease-in-out h-90
-  :class="$clicks < 1 ? 'opacity-0 scale-90' : 'opacity-100 scale-100'"
->
-  <v-clicks>
-  <div
-    border="2 solid lime-800" bg="lime-800/20"
-    rounded-lg p-5 flex flex-col items-center
-    transition-all duration-500 h-full
-  >
-    <div mb-4 flex-1 flex items-center justify-center>
-      <div i-carbon:lightning text-yellow-500 text="[100px]" />
-    </div>
-    <div font-bold text-xl>Setup time cost</div>
-    <div
-      text-lime-300 text-2xl font-bold mt-2
-      flex items-center gap-1
-    >
-      <span>5-10x</span>
-      <div i-carbon:arrow-up text-green-400 />
-    </div>
-    <div text-sm opacity-70 mt-1>With shared environments</div>
-    <div text-xs mt-3 bg="lime-900/30" rounded-lg px-3 py-1>
-      From hours to minutes
-    </div>
-  </div>
-
-  <div
-    border="2 solid cyan-800" bg="cyan-800/20"
-    rounded-lg p-5 flex flex-col items-center
-    transition-all duration-500 h-full
-  >
-    <div mb-4 flex-1 flex items-center justify-center>
-      <div i-carbon:vmdk-disk text-indigo-500 text="[100px]" />
-    </div>
-    <div font-bold text-xl>Save storage</div>
-    <div
-      text-cyan-300 text-2xl font-bold mt-2
-      flex items-center gap-1
-    >
-      <span>90%</span>
-      <div i-carbon:arrow-down text-green-400 />
-    </div>
-    <div text-sm opacity-70 mt-1>Using JuiceFS dedup</div>
-    <div text-xs mt-3 bg="cyan-900/30" rounded-lg px-3 py-1>
-      10GB → 1GB typical savings
-    </div>
-  </div>
-
-  <div
-    border="2 solid purple-800" bg="purple-800/20"
-    rounded-lg p-5 flex flex-col items-center
-    transition-all duration-500 h-full
-  >
-    <div mb-4 flex-1 flex items-center justify-center>
-      <div i-carbon:badge text-violet-500 text="[100px]" />
-    </div>
-    <div font-bold text-xl>Time cost</div>
-    <div
-      text-purple-300 text-2xl font-bold mt-2
-      flex items-center gap-1
-    >
-      <span>75%</span>
-      <div i-carbon:arrow-down text-green-400 />
-    </div>
-    <div text-sm opacity-70 mt-1>No more environment setup</div>
-    <div text-xs mt-3 bg="purple-900/30" rounded-lg px-3 py-1>
-      Instant environment activation
-    </div>
-  </div>
-  </v-clicks>
+<div v-click class="mt-8 text-2xl font-bold text-gradient bg-gradient-to-r from-blue-400 to-green-400 bg-clip-text text-transparent">
+  Your AI Learning Adventure is Just Getting Started! 🚀
 </div>
 
 ---
-class: py-10
+layout: center
+class: text-center
 ---
 
-# Let's build it together
+# Key Takeaways
 
-<span>Open sourced, already</span>
+Essential Points to Remember
 
-<div flex>
-  <div
-    v-click="1" flex flex-col items-start transition duration-500 ease-in-out
-    :class="$clicks < 1 ? 'translate-x--20 opacity-0' : 'translate-x-0 opacity-100'"
-  >
-    <div mt-10 flex gap-16>
-      <img src="/datasets-repository-qr.png" w-60 />
-      <div text-2xl flex items-center gap-2 mt-4>
-        <div i-ri:github-fill /><span underline decoration-dashed font-mono decoration-zinc-300>BaizeAI/dataset</span>
-      </div>
+<div class="mt-8 grid grid-cols-1 gap-4 max-w-4xl mx-auto">
+  <div v-click class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-4 flex items-center gap-4">
+    <div class="text-3xl">⏰</div>
+    <div class="text-left">
+      <div class="font-bold">30-Minute Daily Rule</div>
+      <div class="text-sm opacity-70">Small daily investment, significant knowledge gains</div>
     </div>
   </div>
-</div>
-
-<div w-full absolute bottom-0 left-0 flex items-center transform="translate-x--10 translate-y--10">
-  <div w-full flex items-center justify-end gap-4>
-    <img src="/KubeCon.svg" h-20 translate-y-4>
-  </div>
-</div>
-
----
-class: py-10
----
-
-<div flex>
-  <div flex-1>
-    <div mt-50 />
-    <div text="[48px]">
-      Thank you
+  
+  <div v-click class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-4 flex items-center gap-4">
+    <div class="text-3xl">🛠️</div>
+    <div class="text-left">
+      <div class="font-bold">Practical Application</div>
+      <div class="text-sm opacity-70">Build projects, solve real problems, create value</div>
     </div>
   </div>
-  <div text-sm text="zinc-300" text-right flex flex-col gap-3 mt-3>
-    <div>
-      Slides open sourced at <a href="https://github.com/BaizeAI/talks"><div inline-block mr-1 translate-y-0.8 i-ri:github-fill />github.com/BaizeAI/talks</a>
-    </div>
-    <div>
-      Slides built on top of <a href="https://sli.dev"><div inline-block mr-1 translate-y-0.8 i-logos:slidev />sli.dev</a>
-    </div>
-    <div self-end mt-16 translate-x-6>
-      <img src="/slide_qr.png" w-50 />
+  
+  <div v-click class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-4 flex items-center gap-4">
+    <div class="text-3xl">🎯</div>
+    <div class="text-left">
+      <div class="font-bold">Focused Learning</div>
+      <div class="text-sm opacity-70">Prioritize areas relevant to your career goals</div>
     </div>
   </div>
-</div>
-
-<div w-full absolute bottom-0 left-0 flex items-center transform="translate-x--10 translate-y--10">
-  <div w-full flex items-center justify-end gap-4>
-    <img src="/KubeCon.svg" h-20 translate-y-4>
+  
+  <div v-click class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-4 flex items-center gap-4">
+    <div class="text-3xl">🤝</div>
+    <div class="text-left">
+      <div class="font-bold">Community Support</div>
+      <div class="text-sm opacity-70">You have lifetime access to guidance and networking</div>
+    </div>
   </div>
 </div>

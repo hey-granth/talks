@@ -1,3 +1,7 @@
 packages:
-  - 'packages/**'
+  - packages/**
   - '!dist/**'
+onlyBuiltDependencies:
+  - esbuild
+  - playwright-chromium
+  - unrs-resolver
